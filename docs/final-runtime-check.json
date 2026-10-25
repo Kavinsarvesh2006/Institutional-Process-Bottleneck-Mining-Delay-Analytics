@@ -1,0 +1,29 @@
+{
+  "verified_date": "2026-10-25",
+  "location": "D:\\mini project\\FlowLens",
+  "health": "ok",
+  "frontend_status": 200,
+  "analytics_endpoints_passed": 15,
+  "timings_seconds": {
+    "overview": 0.0057,
+    "analysis": 0.0065,
+    "process/graph": 0.0443,
+    "process/variants": 0.0164,
+    "process/conformance": 0.0029,
+    "bottlenecks": 0.0604,
+    "bottlenecks/resources": 0.2187,
+    "delays/sla": 0.0392,
+    "delays/trend": 0.0039,
+    "delays/heatmap": 0.0038,
+    "delays/root-cause": 0.2253,
+    "workload/queue": 0.0288,
+    "recommendations": 0.0031,
+    "cases": 0.0084,
+    "predict/metrics": 0.0037
+  },
+  "sample_cases": 3200,
+  "simulation_breaches_avoided": 235,
+  "prediction_probability": 0.5119258252852995,
+  "pdf_bytes": 6315,
+  "csv_cases": 3200
+}

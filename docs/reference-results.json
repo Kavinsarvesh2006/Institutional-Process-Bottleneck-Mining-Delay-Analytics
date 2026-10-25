@@ -1,0 +1,65 @@
+{
+  "overview": {
+    "total_cases": 3200,
+    "events": 14692,
+    "avg_cycle": 87.71285057098652,
+    "breach_rate": 15.436893203883495,
+    "slowest_step": "Principal Approval",
+    "rework_rate": 4.71875,
+    "open_cases": 110,
+    "cycle_change": 35.39916322132497,
+    "start": "2026-01-01",
+    "end": "2026-06-30",
+    "total_wait": 259009.99502042,
+    "fitness": 97.33314393939393
+  },
+  "model": {
+    "available": true,
+    "accuracy": 0.8106796116504854,
+    "precision": 0.5,
+    "recall": 0.6495726495726496,
+    "baseline_accuracy": 0.8106796116504854,
+    "train_count": 2472,
+    "test_count": 618,
+    "confusion_matrix": [
+      [
+        425,
+        76
+      ],
+      [
+        41,
+        76
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "process_type",
+        "importance": 0.4985825715449358
+      },
+      {
+        "feature": "department",
+        "importance": 0.045237473401162645
+      },
+      {
+        "feature": "weekday",
+        "importance": 0.30971744292485676
+      },
+      {
+        "feature": "first_wait",
+        "importance": 0.14646251212904482
+      }
+    ],
+    "note": "Chronological 80/20 holdout. Synthetic data demonstration; risk is an association, not a guarantee."
+  },
+  "simulation": {
+    "activity": "Principal Approval",
+    "reduction": 50.0,
+    "eligible": 3090,
+    "before_cycle": 87.71285057098652,
+    "after_cycle": 69.56748340228043,
+    "before_breach": 15.436893203883495,
+    "after_breach": 7.831715210355987,
+    "saved_hours": 56069.184551301805,
+    "rescued": 235
+  }
+}

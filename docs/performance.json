@@ -1,0 +1,19 @@
+{
+  "events": 50411,
+  "cases": 11000,
+  "timings_seconds": {
+    "overview (cold shared snapshot)": 1.3478,
+    "process/graph": 0.0669,
+    "process/variants": 0.0045,
+    "process/conformance": 0.0042,
+    "bottlenecks": 0.0904,
+    "bottlenecks/resources": 0.1349,
+    "delays/sla": 0.066,
+    "delays/trend": 0.0042,
+    "delays/heatmap": 0.004,
+    "delays/root-cause": 0.2544,
+    "workload/queue": 0.0476,
+    "recommendations": 0.0047,
+    "predict/metrics": 0.7775
+  }
+}

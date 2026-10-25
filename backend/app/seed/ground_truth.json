@@ -1,0 +1,7 @@
+{
+  "hod": "HOD Approval has lognormal queue times, Monday and exam-week amplification.",
+  "clerk": "Office Clerk B has three times the service duration of Clerk A.",
+  "rework": "About 25% of Fee Receipt cases return to Student Correction.",
+  "batch": "Principal approvals wait for Thursday signing.",
+  "trend": "May and June arrivals have 1.7x queue delays."
+}
